@@ -150,7 +150,7 @@ While a video is playing, clients periodically request fresh state and correct p
 
 ### Server-Side Authorization
 
-Client-side controls are disabled for unauthorized users, but this is only a UI restriction. **All privileged actions are validated on the server** using the role-based permission system.
+Controls for unauthorized users send approval requests instead, and **all privileged actions are validated on the server** using the role-based permission system.
 
 ### In-Memory State
 
